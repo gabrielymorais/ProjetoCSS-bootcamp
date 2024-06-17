@@ -21,23 +21,22 @@ body{
         ". . . . ."
     ;
     /* gap: 8.5rem; */
-    align-content: center;
     height: 100vh;
+    align-content: center;
     justify-content: center;
     gap: 8rem;
+}
+
+
+main{
+    grid-area: form;
 }
 
 aside{
     grid-area: hero;
     display: flex;
     flex-direction: column;
-    justify-self: center;
 }
-
-main{
-    grid-area: form;
-}
-
 
 aside h1{
     font-size: 64px;
