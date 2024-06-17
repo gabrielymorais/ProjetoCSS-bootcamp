@@ -55,10 +55,13 @@ main{
     padding: 4.4rem 5.7rem;
     border-radius: 1.2rem;
 }
+
 main h2{
     max-width: 43rem;
     font-size: 3.6rem;
     font-weight: 500;
+
+
 }
 main .actions{
     display: flex;
