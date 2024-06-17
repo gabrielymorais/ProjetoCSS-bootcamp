@@ -51,11 +51,12 @@ aside h1 span, main h2 span{
 }
 
 main{
-    width: 65rem;
+    width: 60rem;
     height: 60rem;
     border: 1px solid rgba(0, 0, 0, 0.151);
     padding: 4.4rem 5.7rem;
     border-radius: 1.2rem;
+    position: relative;
 }
 
 main h2{
@@ -103,19 +104,32 @@ main footer a{
 
 /* CADASTRO DE ENTIDADE */
 
+main header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main header i{
+    color: #ff5678;
+    font-size: 2rem;
+}
+
+
 main form input{
-    width: 495px;
+    width: 490px;
     height: 5.5rem;
 
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.16);
     border-radius: 1.2rem;
     margin-bottom: 1rem;
-    display: block;
+    
 }
 
 main form label{
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: lowercase;
+    display: block;
 }
