@@ -23,8 +23,9 @@ aside h1 span, main h2 span{
 main{
     width: 60rem;
     height: 55rem;
-    border: 1px solid rgba(0, 0, 0, 0.466);
+    border: 1px solid rgba(0, 0, 0, 0.151);
     padding: 4.4rem 5.7rem;
+    border-radius: 1.2rem;
 }
 main h2{
     max-width: 43rem;
@@ -46,8 +47,18 @@ main .actions a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5.4rem;
 }
 main .actions a + a{
     background-color: #ff5678;
     margin-top: 4.8rem;
+}
+
+main footer p{
+    font-size: 1.6rem;
+    margin-top: 8rem;
+}
+main footer a{
+    margin-top: 1rem;
+    font-size: 1.8rem;
 }
