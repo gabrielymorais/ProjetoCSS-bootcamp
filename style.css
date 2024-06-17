@@ -6,6 +6,8 @@
 
 :root{
     font-size: 62.5%;
+    --default-border-radius: 1.2rem solid rgba(0, 0, 0, 0.15)
+    ;
 }
 body{
     margin-top: 4rem;
@@ -100,3 +102,20 @@ main footer a{
 
 
 /* CADASTRO DE ENTIDADE */
+
+main form input{
+    width: 495px;
+    height: 5.5rem;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+main form label{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
