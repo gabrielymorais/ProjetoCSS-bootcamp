@@ -9,7 +9,7 @@
 }
 body{
     font-family: 'Roboto',sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 aside h1{
     font-size: 64px;
@@ -37,7 +37,17 @@ main .actions{
 }
 main .actions a{
     background-color: #35e6e9;
+    font-size: 2.4rem;
+    height: 5.5rem;
+    border-radius: 1.2rem;
+    text-decoration: none;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main .actions a + a{
     background-color: #ff5678;
+    margin-top: 4.8rem;
 }
