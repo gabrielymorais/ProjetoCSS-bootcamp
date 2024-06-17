@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto',sans-serif;
-}
+
 :root{
     font-size: 62.5%;
 }
-
-
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.6rem;
+}
 aside h1{
     font-size: 64px;
     font-weight: 500;
@@ -24,9 +24,20 @@ main{
     width: 60rem;
     height: 55rem;
     border: 1px solid rgba(0, 0, 0, 0.466);
+    padding: 4.4rem 5.7rem;
 }
 main h2{
     max-width: 43rem;
     font-size: 3.6rem;
     font-weight: 500;
+}
+main .actions{
+    display: flex;
+    flex-flow: column wrap;
+}
+main .actions a{
+    background-color: #35e6e9;
+}
+main .actions a + a{
+    background-color: #ff5678;
 }
