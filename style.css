@@ -108,6 +108,7 @@ main header{
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 main header i{
@@ -116,7 +117,7 @@ main header i{
 }
 
 
-main form input{
+main form :is(input, select){
     width: 490px;
     height: 5.5rem;
 
@@ -128,8 +129,46 @@ main form input{
 }
 
 main form label{
+    margin-bottom: 1rem;
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: lowercase;
     display: block;
+}
+main form select{
+    appearance: none;
+}
+
+main .points button{
+    border: none;
+    cursor: pointer;
+}
+main .points i:hover{
+    color: #ff5678;
+    transition: .5s;
+}
+
+
+main .points i{
+    color: #35e6e9;
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    bottom: 215px;
+   
+}
+main form .select-div{
+    position: relative;
+}
+
+main form .select-div::after{
+    top: 1.5rem;
+    left: 45rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    content: '\f107';
+    font-family: 'Font Awesome 6 Free';
+    position: absolute;
+    z-index: 1;
+    color: #35e6e9;
 }
